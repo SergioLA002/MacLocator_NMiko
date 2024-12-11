@@ -32,11 +32,16 @@ La configuración inicial inicia desde  `SWITCH_ACTUAL`. Configurando la direcci
     
 	SWITCH_ACTUAL = {
 		"device_type": "cisco_ios",
-   	 "host": "192.168.1.1",
-   	 "username": "cisco",
+   	        "host": IP_ACTUAL,
+   		"username": "cisco",
     	"password": "cisco"
+     }
     
-Incia el programa e introduce la mac solicitada en la terminal (FFFF.FFFFF.FFFF):
+Incia el programa e introduce la ip en la terminal con el formato solicitado (255.255.255.255)
+
+    Ingresa la ip del switch principal (255.255.255.255): 192.168.1.1
+
+la mac solicitada en la terminal (FFFF.FFFFF.FFFF):
 
 Ejemplo de uso con la siguiente mac 0001.42AB.CDEF: 
 
